@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/res/color/abc_secondary_text_material_dark.xml"
+    }
+]
