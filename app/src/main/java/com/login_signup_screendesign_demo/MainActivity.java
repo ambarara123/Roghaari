@@ -2,6 +2,7 @@ package com.login_signup_screendesign_demo;
 
 import com.login_signup_screendesign_demo.R;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -10,27 +11,40 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 	private static FragmentManager fragmentManager;
+	//public static Toolbar toolbar;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2) ;
-		setSupportActionBar(toolbar);
+	//	toolbar = (Toolbar) findViewById(R.id.toolbar2) ;
+	//	setSupportActionBar(toolbar);
+
+
 
 		fragmentManager = getSupportFragmentManager();
 
+		Button shotcut = (Button) findViewById(R.id.button);
+		shotcut.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				startActivity(new Intent(MainActivity.this,DashboardActivity.class));
+			}
+		});
 
 
 
-
-
-	// If savedinstnacestate is null then replace login fragment
+		// If savedinstnacestate is null then replace login fragment
 		if (savedInstanceState == null) {
 			fragmentManager
 					.beginTransaction()
@@ -52,6 +66,19 @@ public class MainActivity extends AppCompatActivity {
 	}
 
 	@Override
+	public boolean useNavDrawer() {
+		return false;
+	}
+
+
+
+
+
+
+
+
+
+	@Override
 	public void onBackPressed() {
 
 		// Find the tag of signup and forgot password fragment
@@ -70,4 +97,5 @@ public class MainActivity extends AppCompatActivity {
 			replaceLoginFragment();
 		else
 			super.onBackPressed();
-	}}
+	}
+}

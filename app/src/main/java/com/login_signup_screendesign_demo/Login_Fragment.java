@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import com.login_signup_screendesign_demo.R;
 
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
@@ -39,6 +40,10 @@ public class Login_Fragment extends Fragment implements OnClickListener {
 	private static Animation shakeAnimation;
 	private static FragmentManager fragmentManager;
 
+
+	//shortcut to inner activities
+	private static Button shortcut;
+
 	public Login_Fragment() {
 
 	}
@@ -59,11 +64,14 @@ public class Login_Fragment extends Fragment implements OnClickListener {
 		emailid = (EditText) view.findViewById(R.id.login_emailid);
 		password = (EditText) view.findViewById(R.id.login_password);
 		loginButton = (Button) view.findViewById(R.id.loginBtn);
+
+
 		forgotPassword = (TextView) view.findViewById(R.id.forgot_password);
 		signUp = (TextView) view.findViewById(R.id.createAccount);
 		show_hide_password = (CheckBox) view
 				.findViewById(R.id.show_hide_password);
 		loginLayout = (LinearLayout) view.findViewById(R.id.login_layout);
+
 
 		// Load ShakeAnimation
 		shakeAnimation = AnimationUtils.loadAnimation(getActivity(),
@@ -87,6 +95,7 @@ public class Login_Fragment extends Fragment implements OnClickListener {
 		loginButton.setOnClickListener(this);
 		forgotPassword.setOnClickListener(this);
 		signUp.setOnClickListener(this);
+
 
 		// Set check listener over checkbox for showing and hiding password
 		show_hide_password
@@ -148,6 +157,7 @@ public class Login_Fragment extends Fragment implements OnClickListener {
 					.setCustomAnimations(R.anim.right_enter, R.anim.left_out)
 					.replace(R.id.frameContainer, new SignUp_Fragment(),
 							Utils.SignUp_Fragment).commit();
+
 			break;
 		}
 
@@ -180,6 +190,8 @@ public class Login_Fragment extends Fragment implements OnClickListener {
 		else
 			Toast.makeText(getActivity(), "Do Login.", Toast.LENGTH_SHORT)
 					.show();
+
+
 
 	}
 }

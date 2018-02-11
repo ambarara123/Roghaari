@@ -27,8 +27,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NavigationActivity"
-            android:label="@string/title_activity_navigation"></activity>
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard" />
+        <activity android:name=".DetailedDashboardActivity" />
+        <activity android:name=".BaseActivity"></activity>
     </application>
 
 </manifest>
