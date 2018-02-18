@@ -5,17 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="com.login_signup_screendesign_demo.DashboardActivity">
+    tools:context="com.login_signup_screendesign_demo.DashboardActivity"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+
+        android:orientation="vertical"
+        android:id="@+id/linearlayout"
+        >
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -281,5 +286,15 @@
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
+
+    <!--<android.support.design.widget.BottomNavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignBottom="@id/linearlayout"
+        android:layout_gravity="start"
+        android:background="@color/button_selectorcolor"
+        app:menu="@menu/my_navigation_items" />-->
 </RelativeLayout>
 

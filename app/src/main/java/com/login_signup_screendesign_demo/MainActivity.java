@@ -4,6 +4,7 @@ import com.login_signup_screendesign_demo.R;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
@@ -27,6 +28,7 @@ public class MainActivity extends BaseActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
 	//	toolbar = (Toolbar) findViewById(R.id.toolbar2) ;
 	//	setSupportActionBar(toolbar);
 
@@ -38,7 +40,7 @@ public class MainActivity extends BaseActivity {
 		shotcut.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				startActivity(new Intent(MainActivity.this,DashboardActivity.class));
+				startActivity(new Intent(MainActivity.this,TabBarActivity.class));
 			}
 		});
 
@@ -74,9 +76,7 @@ public class MainActivity extends BaseActivity {
 
 
 
-
-
-
+	boolean doubleBackToExitPressedOnce = false;
 
 	@Override
 	public void onBackPressed() {
@@ -95,7 +95,20 @@ public class MainActivity extends BaseActivity {
 			replaceLoginFragment();
 		else if (ForgotPassword_Fragment != null)
 			replaceLoginFragment();
-		else
+		else if (doubleBackToExitPressedOnce) {
 			super.onBackPressed();
+			return;
+		}
+
+		this.doubleBackToExitPressedOnce = true;
+		Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+
+		new Handler().postDelayed(new Runnable() {
+
+			@Override
+			public void run() {
+				doubleBackToExitPressedOnce=false;
+			}
+		}, 2000);
 	}
 }

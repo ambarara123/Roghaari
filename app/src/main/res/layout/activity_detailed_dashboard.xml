@@ -16,16 +16,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="20"
             android:orientation="horizontal">
 
             <android.support.v7.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="50">
+                android:layout_margin="2dp"
+                android:layout_weight="50"
+                android:clickable="true"
+                android:elevation="6dp"
+                android:focusableInTouchMode="true"
+                android:foreground="@drawable/ripple_effect"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:translationZ="7dp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardCornerRadius="2dp">
 
                 <TextView
                     android:id="@+id/textView6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="TextView"
@@ -35,11 +46,236 @@
             <android.support.v7.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="50">
+                android:layout_margin="2dp"
+                android:layout_weight="50"
+                android:clickable="true"
+                android:elevation="6dp"
+                android:focusableInTouchMode="true"
+                android:foreground="@drawable/ripple_effect"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:translationZ="7dp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardCornerRadius="2dp">
 
                 <TextView
                     android:id="@+id/textView7"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="TextView"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="50"
+                android:clickable="true"
+                android:elevation="6dp"
+                android:focusableInTouchMode="true"
+                android:foreground="@drawable/ripple_effect"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:translationZ="7dp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardCornerRadius="2dp">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="TextView"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="50"
+                android:clickable="true"
+                android:elevation="6dp"
+                android:focusableInTouchMode="true"
+                android:foreground="@drawable/ripple_effect"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:translationZ="7dp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardCornerRadius="2dp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="TextView"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="50"
+                android:clickable="true"
+                android:elevation="6dp"
+                android:focusableInTouchMode="true"
+                android:foreground="@drawable/ripple_effect"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:translationZ="7dp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardCornerRadius="2dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="TextView"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="50"
+                android:clickable="true"
+                android:elevation="6dp"
+                android:focusableInTouchMode="true"
+                android:foreground="@drawable/ripple_effect"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:translationZ="7dp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardCornerRadius="2dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="TextView"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="50"
+                android:clickable="true"
+                android:elevation="6dp"
+                android:focusableInTouchMode="true"
+                android:foreground="@drawable/ripple_effect"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:translationZ="7dp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardCornerRadius="2dp">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="TextView"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="50"
+                android:clickable="true"
+                android:elevation="6dp"
+                android:focusableInTouchMode="true"
+                android:foreground="@drawable/ripple_effect"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:translationZ="7dp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardCornerRadius="2dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="TextView"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="50"
+                android:clickable="true"
+                android:elevation="6dp"
+                android:focusableInTouchMode="true"
+                android:foreground="@drawable/ripple_effect"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:translationZ="7dp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardCornerRadius="2dp">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="TextView"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="50"
+                android:clickable="true"
+                android:elevation="6dp"
+                android:focusableInTouchMode="true"
+                android:foreground="@drawable/ripple_effect"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:translationZ="7dp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardCornerRadius="2dp">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="TextView"

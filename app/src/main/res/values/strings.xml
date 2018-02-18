@@ -25,7 +25,6 @@
     <string name="title_activity_navigation">NavigationActivity</string>
 
 
-
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
@@ -35,5 +34,9 @@
 
     <string name="action_example">Example action</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 </resources>
