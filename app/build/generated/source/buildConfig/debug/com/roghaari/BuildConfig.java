@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.login_signup_screendesign_demo;
+package com.roghaari;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");

@@ -1,13 +1,9 @@
-package com.login_signup_screendesign_demo;
+package com.roghaari;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
-import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
 import android.support.v7.widget.CardView;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 

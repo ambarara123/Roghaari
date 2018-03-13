@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.login_signup_screendesign_demo.NavigationActivity">
+    tools:context="com.roghaari.NavigationActivity">
     <item android:id="@+id/bottomDashboard"
         android:title="Dashboard"
         android:icon="@drawable/ic_dashboard_black_24dp" />

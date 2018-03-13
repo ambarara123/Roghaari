@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.login_signup_screendesign_demo.test" >
+    package="com.roghaari.test" >
 
     <uses-sdk
         android:minSdkVersion="21"
