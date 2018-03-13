@@ -31,7 +31,6 @@
         <activity
             android:name="com.login_signup_screendesign_demo.DashboardActivity"
             android:label="@string/title_activity_dashboard" />
-        <activity android:name="com.login_signup_screendesign_demo.DetailedDashboardActivity" />
         <activity android:name="com.login_signup_screendesign_demo.BaseActivity" />
         <activity android:name="com.login_signup_screendesign_demo.TabBarActivity" />
         <activity android:name="com.login_signup_screendesign_demo.DashboardFragment" />

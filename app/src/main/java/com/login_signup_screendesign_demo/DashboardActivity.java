@@ -32,7 +32,7 @@ public class DashboardActivity extends BaseActivity  implements BottomNavigation
             @Override
             public void onClick(View view) {
 
-                startActivity(new Intent(DashboardActivity.this, DetailedDashboardActivity.class));
+                startActivity(new Intent(DashboardActivity.this, TabBarActivity.class));
                 Toast.makeText(DashboardActivity.this, "Welcome to Detailed Dashboard activity", Toast.LENGTH_SHORT).show();
 
             }

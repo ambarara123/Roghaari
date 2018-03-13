@@ -1,13 +1,15 @@
 package com.login_signup_screendesign_demo;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import com.login_signup_screendesign_demo.R;
-
+import android.app.DatePickerDialog;
 import android.content.res.ColorStateList;
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,17 +17,23 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class SignUp_Fragment extends Fragment implements OnClickListener {
 	private static View view;
 	private static EditText fullName, emailId, mobileNumber, location,
-			password, confirmPassword;
-	private static TextView login;
+			dateView;
+	private static TextView login,datePicker;
 	private static Button signUpButton;
 	private static CheckBox terms_conditions;
+	private static RadioButton maleButton,femaleButton;
+
+    Calendar myCalendar = Calendar.getInstance();
+
 
 	public SignUp_Fragment() {
 
@@ -37,6 +45,8 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 		view = inflater.inflate(R.layout.signup_layout, container, false);
 		initViews();
 		setListeners();
+
+
 		return view;
 	}
 
@@ -46,11 +56,15 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 		emailId = (EditText) view.findViewById(R.id.userEmailId);
 		mobileNumber = (EditText) view.findViewById(R.id.mobileNumber);
 		location = (EditText) view.findViewById(R.id.location);
-		password = (EditText) view.findViewById(R.id.password);
-		confirmPassword = (EditText) view.findViewById(R.id.confirmPassword);
+		dateView = (EditText) view.findViewById(R.id.dob);
 		signUpButton = (Button) view.findViewById(R.id.signUpBtn);
 		login = (TextView) view.findViewById(R.id.already_user);
 		terms_conditions = (CheckBox) view.findViewById(R.id.terms_conditions);
+        datePicker = (TextView) view.findViewById(R.id.dob_picker);
+        maleButton = (RadioButton) view.findViewById(R.id.radioButton_male);
+        femaleButton = (RadioButton) view.findViewById(R.id.radioButton_female);
+
+
 
 		// Setting text selector over textviews
 		XmlResourceParser xrp = getResources().getXml(R.drawable.text_selector);
@@ -68,6 +82,9 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 	private void setListeners() {
 		signUpButton.setOnClickListener(this);
 		login.setOnClickListener(this);
+		datePicker.setOnClickListener(this);
+		maleButton.setOnClickListener(this);
+		femaleButton.setOnClickListener(this);
 	}
 
 	@Override
@@ -84,6 +101,32 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 			// Replace login fragment
 			new MainActivity().replaceLoginFragment();
 			break;
+
+            case R.id.dob_picker:
+
+                // TODO Auto-generated method stub
+                new DatePickerDialog(getContext(), date, myCalendar
+                        .get(Calendar.YEAR), myCalendar.get(Calendar.MONTH),
+                        myCalendar.get(Calendar.DAY_OF_MONTH)).show();
+                break;
+
+
+            case R.id.radioButton_male:
+                    maleButton.setChecked(true);
+                    femaleButton.setChecked(false);
+                    // Pirates are the best
+                    Toast.makeText(getContext(), "check", Toast.LENGTH_SHORT).show();
+
+
+                    break;
+            case R.id.radioButton_female:
+                    maleButton.setChecked(false);
+                    femaleButton.setChecked(true);
+
+
+                    break;
+
+
 		}
 
 	}
@@ -96,8 +139,8 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 		String getEmailId = emailId.getText().toString();
 		String getMobileNumber = mobileNumber.getText().toString();
 		String getLocation = location.getText().toString();
-		String getPassword = password.getText().toString();
-		String getConfirmPassword = confirmPassword.getText().toString();
+		String getDOB = dateView.getText().toString();
+
 
 		// Pattern match for email id
 		Pattern p = Pattern.compile(Utils.regEx);
@@ -108,9 +151,8 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 				|| getEmailId.equals("") || getEmailId.length() == 0
 				|| getMobileNumber.equals("") || getMobileNumber.length() == 0
 				|| getLocation.equals("") || getLocation.length() == 0
-				|| getPassword.equals("") || getPassword.length() == 0
-				|| getConfirmPassword.equals("")
-				|| getConfirmPassword.length() == 0)
+                || getDOB.equals("") || getDOB.length() == 0
+				)
 
 			new CustomToast().Show_Toast(getActivity(), view,
 					"All fields are required.");
@@ -121,9 +163,9 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 					"Your Email Id is Invalid.");
 
 		// Check if both password should be equal
-		else if (!getConfirmPassword.equals(getPassword))
-			new CustomToast().Show_Toast(getActivity(), view,
-					"Both password doesn't match.");
+	//	else if (!getConfirmPassword.equals(getPassword))
+		//	new CustomToast().Show_Toast(getActivity(), view,
+		//			"Both password doesn't match.");
 
 		// Make sure user should check Terms and Conditions checkbox
 		else if (!terms_conditions.isChecked())
@@ -132,8 +174,37 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 
 		// Else do signup or do your stuff
 		else
-			Toast.makeText(getActivity(), "Do SignUp.", Toast.LENGTH_SHORT)
+			Toast.makeText(getActivity(), "Your atp has been sent to your email", Toast.LENGTH_SHORT)
 					.show();
 
 	}
-}
+
+
+
+
+
+	//calender integration
+    DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
+
+        @Override
+        public void onDateSet(DatePicker view, int year, int monthOfYear,
+                              int dayOfMonth) {
+            // TODO Auto-generated method stub
+            myCalendar.set(Calendar.YEAR, year);
+            myCalendar.set(Calendar.MONTH, monthOfYear);
+            myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+            updateLabel();
+        }
+
+    };
+
+
+    private void updateLabel() {
+        String myFormat = "dd/MM/yyyy"; //In which you need put here
+        SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
+
+        dateView.setText(sdf.format(myCalendar.getTime()));
+    }
+
+    }
+

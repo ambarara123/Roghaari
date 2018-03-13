@@ -73,9 +73,6 @@ public class MainActivity extends BaseActivity {
 	}
 
 
-
-
-
 	boolean doubleBackToExitPressedOnce = false;
 
 	@Override
@@ -99,6 +96,7 @@ public class MainActivity extends BaseActivity {
 			super.onBackPressed();
 			return;
 		}
+
 
 		this.doubleBackToExitPressedOnce = true;
 		Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();

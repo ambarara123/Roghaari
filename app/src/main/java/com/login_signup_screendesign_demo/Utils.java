@@ -11,3 +11,4 @@ public class Utils {
 	public static final String ForgotPassword_Fragment = "ForgotPassword_Fragment";
 	
 }
+

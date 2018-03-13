@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e26e31559113989900dfa9a756522885/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/829f1b5c41a86c0e3b80503c978c45c2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/316a42bdb2c1b9dc27db93b66153b808/AndroidManifest.xml:17:1-22:12
@@ -20,9 +20,9 @@ MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/ambar/.gr
 MERGED from [com.android.support:transition:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/06d9138f2f92b7d0251dc365e16f600e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5e2efe8897ba2eb144b16eaeef1e3b43/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/ambar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/46f217eb6e24b726b9a3ba1a4d141bb4/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:3:5-49
 		INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml
@@ -96,7 +96,7 @@ ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_Scree
 	android:name
 		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:13:22-77
 application
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:15:5-38:19
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:15:5-37:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e26e31559113989900dfa9a756522885/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e26e31559113989900dfa9a756522885/AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/34576b326b51e814cacd03041060d10c/AndroidManifest.xml:9:5-20
@@ -131,27 +131,23 @@ ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_Scree
 		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:31:13-61
 	android:name
 		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:30:13-46
-activity#com.login_signup_screendesign_demo.DetailedDashboardActivity
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:32:9-63
-	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:32:19-60
 activity#com.login_signup_screendesign_demo.BaseActivity
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:33:9-50
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:32:9-50
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:33:19-47
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:32:19-47
 activity#com.login_signup_screendesign_demo.TabBarActivity
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:34:9-52
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:33:9-52
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:34:19-49
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:33:19-49
 activity#com.login_signup_screendesign_demo.DashboardFragment
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:35:9-55
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:34:9-55
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:35:19-52
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:34:19-52
 activity#com.login_signup_screendesign_demo.HistoryFragment
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:36:9-53
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:35:9-53
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:36:19-50
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:35:19-50
 activity#com.login_signup_screendesign_demo.NotificationFragment
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:37:9-67
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:36:9-67
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:37:19-55
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:36:19-55
