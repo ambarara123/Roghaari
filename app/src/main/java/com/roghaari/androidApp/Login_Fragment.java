@@ -1,4 +1,4 @@
-package com.roghaari;
+package com.roghaari.androidApp;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -25,6 +25,8 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.roghaari.R;
 
 public class Login_Fragment extends Fragment implements OnClickListener {
 	private static View view;

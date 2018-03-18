@@ -1,4 +1,4 @@
-package com.roghaari;
+package com.roghaari.androidApp;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -21,6 +21,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.roghaari.R;
 
 public class SignUp_Fragment extends Fragment implements OnClickListener {
 	private static View view;
@@ -63,8 +65,6 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
         maleButton = (RadioButton) view.findViewById(R.id.radioButton_male);
         femaleButton = (RadioButton) view.findViewById(R.id.radioButton_female);
 
-
-
 		// Setting text selector over textviews
 		XmlResourceParser xrp = getResources().getXml(R.drawable.text_selector);
 		try {
@@ -76,6 +76,7 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 		} catch (Exception e) {
 		}
 	}
+
 
 	// Set Listeners
 	private void setListeners() {
@@ -124,7 +125,6 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 
 
                     break;
-
 
 		}
 

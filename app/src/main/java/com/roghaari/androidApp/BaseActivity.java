@@ -1,4 +1,4 @@
-package com.roghaari;
+package com.roghaari.androidApp;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -13,6 +13,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.Toast;
+
+import com.roghaari.R;
 
 public class BaseActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -99,7 +101,6 @@ public class BaseActivity extends AppCompatActivity implements NavigationView.On
     private void openDrawer(){
         fullView.openDrawer(GravityCompat.START);
     }
-
 
 
     @Override

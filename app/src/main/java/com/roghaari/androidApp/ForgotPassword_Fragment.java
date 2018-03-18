@@ -1,4 +1,4 @@
-package com.roghaari;
+package com.roghaari.androidApp;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -14,6 +14,8 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.roghaari.R;
 
 public class ForgotPassword_Fragment extends Fragment implements
 		OnClickListener {

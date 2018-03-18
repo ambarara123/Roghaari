@@ -18,7 +18,7 @@
         android:label="@string/app_name"
         android:theme="@style/MyMaterialTheme">
         <activity
-            android:name="com.roghaari.MainActivity"
+            android:name="com.roghaari.androidApp.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,13 +27,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.roghaari.DashboardActivity"
+            android:name="com.roghaari.androidApp.DashboardActivity"
             android:label="@string/title_activity_dashboard" />
-        <activity android:name="com.roghaari.BaseActivity" />
-        <activity android:name="com.roghaari.TabBarActivity" />
-        <activity android:name="com.roghaari.DashboardFragment" />
-        <activity android:name="com.roghaari.HistoryFragment" />
-        <activity android:name="com.roghaari.NotificationFragment"></activity>
+        <activity android:name="com.roghaari.androidApp.BaseActivity" />
+        <activity android:name="com.roghaari.androidApp.TabBarActivity" />
+        <activity android:name="com.roghaari.androidApp.DashboardFragment" />
+        <activity android:name="com.roghaari.androidApp.HistoryFragment" />
+        <activity android:name="com.roghaari.androidApp.NotificationFragment"></activity>
     </application>
 
 </manifest>

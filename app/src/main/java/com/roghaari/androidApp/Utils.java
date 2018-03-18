@@ -1,4 +1,4 @@
-package com.roghaari;
+package com.roghaari.androidApp;
 
 public class Utils {
 	
