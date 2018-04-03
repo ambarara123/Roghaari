@@ -5,38 +5,38 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.roghaari.R;
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends AppCompatActivity {
 	private static FragmentManager fragmentManager;
 	//public static Toolbar toolbar;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+
+
+		//if the user is already logged in we will directly start the tab_Bar activity
+		if (SharedPrefManager.getInstance(this).isLoggedIn()) {
+			finish();
+			startActivity(new Intent(this, TabBarActivity.class));
+			return;
+		}
+
 	//	toolbar = (Toolbar) findViewById(R.id.toolbar2) ;
 	//	setSupportActionBar(toolbar);
 
-
-
 		fragmentManager = getSupportFragmentManager();
-
-		Button shotcut = (Button) findViewById(R.id.button);
-		shotcut.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				startActivity(new Intent(MainActivity.this,TabBarActivity.class));
-			}
-		});
-
-
 
 		// If savedinstnacestate is null then replace login fragment
 		if (savedInstanceState == null) {
@@ -59,10 +59,12 @@ public class MainActivity extends BaseActivity {
 						Utils.Login_Fragment).commit();
 	}
 
+/*
 	@Override
 	public boolean useNavDrawer() {
 		return false;
 	}
+*/
 
 
 	boolean doubleBackToExitPressedOnce = false;
@@ -84,21 +86,14 @@ public class MainActivity extends BaseActivity {
 			replaceLoginFragment();
 		else if (ForgotPassword_Fragment != null)
 			replaceLoginFragment();
-		else if (doubleBackToExitPressedOnce) {
-			super.onBackPressed();
-			return;
+
+		else {
+			Intent homeIntent = new Intent(Intent.ACTION_MAIN);
+			homeIntent.addCategory(Intent.CATEGORY_HOME);
+			homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(homeIntent);
+
 		}
 
-
-		this.doubleBackToExitPressedOnce = true;
-		Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
-
-		new Handler().postDelayed(new Runnable() {
-
-			@Override
-			public void run() {
-				doubleBackToExitPressedOnce=false;
-			}
-		}, 2000);
 	}
 }

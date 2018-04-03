@@ -3,11 +3,11 @@
 
     <group >
         <item
-            android:id="@+id/menuDashboard"
+            android:id="@+id/menuProfile"
             android:checkable="true"
             android:checked="false"
-            android:icon="@drawable/ic_dashboard_black_24dp"
-            android:title="DashBoard" />
+            android:icon="@drawable/ic_profile_black_24dp"
+            android:title="Profile" />
         <item
             android:checkable="true"
             android:icon="@android:drawable/btn_star_big_on"
@@ -21,7 +21,8 @@
     </group>
     <group >
         <item
+            android:id="@+id/logoutMenu"
             android:checkable="true"
-            android:title="Item" />
+            android:title="Logout" />
     </group>
 </menu>

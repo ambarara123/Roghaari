@@ -4,6 +4,8 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,6 +32,11 @@ public class HealthTipsFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+    //Abhishek-> for recyclerview
+
+    recyclerAdapter adapter1;
+    String[]string={"ABC ABD","2","3"};
 
     public HealthTipsFragment() {
         // Required empty public constructor
@@ -65,8 +72,16 @@ public class HealthTipsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_health_tips, container, false);
+        // Inflate the layout for this fragmentView rootView=inflater.inflate(R.layout.fragment_history,container,false);
+        View rootView=inflater.inflate(R.layout.fragment_health_tips,container,false);
+        RecyclerView recyclerView = (RecyclerView)rootView.findViewById(R.id.health_tips_recyclerView);
+
+        recyclerView.setLayoutManager(new LinearLayoutManager(this.getActivity()));
+        adapter1 = new recyclerAdapter(getContext(),string);
+
+        recyclerView.setAdapter(adapter1);
+        /// Inflate the layout for this fragment
+        return rootView;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

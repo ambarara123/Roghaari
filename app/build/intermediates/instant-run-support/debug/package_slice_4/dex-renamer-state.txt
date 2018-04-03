@@ -1,4 +1,0 @@
-#Mon Mar 12 23:30:13 IST 2018
-base.0=/home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/transforms/dexMerger/debug/4
-path.0=classes.dex
-renamed.0=classes.dex

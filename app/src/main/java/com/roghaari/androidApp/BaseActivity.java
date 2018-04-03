@@ -80,11 +80,14 @@ public class BaseActivity extends AppCompatActivity implements NavigationView.On
         closeDrawer();
 
         switch (id){
-            case R.id.menuDashboard :
+            case R.id.menuProfile :
                 Toast.makeText(this, "clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(this,TabBarActivity.class));
+                startActivity(new Intent(this,ProfileActivity.class));
                 finish();
 
+                return true;
+            case R.id.logoutMenu :
+                SharedPrefManager.getInstance(this).logout();
                 return true;
 
             default:

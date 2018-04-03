@@ -4,17 +4,7 @@
             "outputFile": "/home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/45c3ec4fe769402a08d7ff6d66746414/res/values-fr-rCA/values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,331,442,529,645,775,858,938,1034,1144,1256,1359,1470,1577,1679,1838,1937",
-                        "endColumns": "110,114,110,86,115,129,82,79,95,109,111,102,110,106,101,158,98,85",
-                        "endOffsets": "211,326,437,524,640,770,853,933,1029,1139,1251,1354,1465,1572,1674,1833,1932,2018"
-                    }
-                },
-                {
-                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5e2efe8897ba2eb144b16eaeef1e3b43/res/values-fr-rCA/values-fr-rCA.xml",
+                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/879f365c74428f5d47fbdb5b79685395/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "2023",
                         "endColumns": "100",
                         "endOffsets": "2119"
+                    }
+                },
+                {
+                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/71befe5ec305d60defaef180422f5a7e/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,529,645,775,858,938,1034,1144,1256,1359,1470,1577,1679,1838,1937",
+                        "endColumns": "110,114,110,86,115,129,82,79,95,109,111,102,110,106,101,158,98,85",
+                        "endOffsets": "211,326,437,524,640,770,853,933,1029,1139,1251,1354,1465,1572,1674,1833,1932,2018"
                     }
                 }
             ]

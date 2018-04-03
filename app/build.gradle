@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion "27.0.2"
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         applicationId "com.login_signup_screendesign_demo"
@@ -33,8 +33,8 @@ dependencies {
 
     // volley http library
     implementation 'com.android.volley:volley:1.0.0'
-    implementation 'com.google.code.gson:gson:2.6.2'
-
-    // glide image library
-    implementation 'com.github.bumptech.glide:glide:4.3.1'
+    //sliding up panel library
+    implementation 'com.sothree.slidinguppanel:library:3.4.0'
+    //crop image library
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.3.+'
 }

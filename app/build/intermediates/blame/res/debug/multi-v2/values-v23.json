@@ -4,7 +4,7 @@
             "outputFile": "/home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/45c3ec4fe769402a08d7ff6d66746414/res/values-v23/values-v23.xml",
+                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/71befe5ec305d60defaef180422f5a7e/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/06f566fcb24d55c02ff4846a7054c004/res/values-v23/values-v23.xml",
+                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/d1268eced41e3f867d5a3152ef00d1e1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

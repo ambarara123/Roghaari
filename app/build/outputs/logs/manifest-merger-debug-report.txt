@@ -1,28 +1,30 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e26e31559113989900dfa9a756522885/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:design:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/829f1b5c41a86c0e3b80503c978c45c2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/316a42bdb2c1b9dc27db93b66153b808/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/45c3ec4fe769402a08d7ff6d66746414/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/06f566fcb24d55c02ff4846a7054c004/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/34576b326b51e814cacd03041060d10c/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-media-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/ffa1a007bb8ac07fc5cf57e458fd80f4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d3351f63a2a0f5b2955f205ce48737e1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/6309096281012d340628134ca1158826/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/13a462cc3804232c5d14eedb9a883a0b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/f1449f9da8cb386195e3bc8137922318/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/2e1c23497fbb0fb119e8d3954e8e7a92/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e1cfb19a48fadab78429ce71789e21bd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/06d9138f2f92b7d0251dc365e16f600e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5e2efe8897ba2eb144b16eaeef1e3b43/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/ambar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/46f217eb6e24b726b9a3ba1a4d141bb4/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-57:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/733d2581c3ec0c5c262331984bf6e9d1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ad07a596915c852e7f8f9c025116832d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/library-3.4.0.aar/a66475a587405f6f985f216d233fea50/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/636c603844ab76386fbb1abf671d3a28/AndroidManifest.xml:17:1-22:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.3.1] /home/ambar/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.3.1.aar/cac1c93f4a44ec045571ed38623bf23e/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/71befe5ec305d60defaef180422f5a7e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/d1268eced41e3f867d5a3152ef00d1e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/a49895a52c4e4e6f703d601b11b40e22/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/1a41b34e28d12acce1eaf184557eeac6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/62adf5320959051d8329d1ec6cc211bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/a7e960f8cb16ec50eebe03e8c380b964/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/c9b75245a1379e0abc567e7768255e13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/38f7b67a9901380da27a667cc070f2c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/006ce1a6eb97fbc026bb431c4c4eb769/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/f2acfe575b4edaaa45e439c6fd39d34a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/0a2245642e5fd9c641c9cb1c39cbb8c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/879f365c74428f5d47fbdb5b79685395/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/ambar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/4cca50ec2f774422dcd222d0c0a50811/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:2:1-57:12
 	package
 		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:3:5-27
 		INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml
@@ -41,38 +43,42 @@ uses-sdk
 ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:7:5-9:41
 INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:7:5-9:41
 INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e26e31559113989900dfa9a756522885/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e26e31559113989900dfa9a756522885/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/829f1b5c41a86c0e3b80503c978c45c2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/829f1b5c41a86c0e3b80503c978c45c2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/316a42bdb2c1b9dc27db93b66153b808/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/316a42bdb2c1b9dc27db93b66153b808/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/45c3ec4fe769402a08d7ff6d66746414/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/45c3ec4fe769402a08d7ff6d66746414/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/06f566fcb24d55c02ff4846a7054c004/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/06f566fcb24d55c02ff4846a7054c004/AndroidManifest.xml:20:5-44
-MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/34576b326b51e814cacd03041060d10c/AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/34576b326b51e814cacd03041060d10c/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:support-media-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/ffa1a007bb8ac07fc5cf57e458fd80f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/ffa1a007bb8ac07fc5cf57e458fd80f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d3351f63a2a0f5b2955f205ce48737e1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d3351f63a2a0f5b2955f205ce48737e1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/6309096281012d340628134ca1158826/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/6309096281012d340628134ca1158826/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/13a462cc3804232c5d14eedb9a883a0b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/13a462cc3804232c5d14eedb9a883a0b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/f1449f9da8cb386195e3bc8137922318/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/f1449f9da8cb386195e3bc8137922318/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/2e1c23497fbb0fb119e8d3954e8e7a92/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/2e1c23497fbb0fb119e8d3954e8e7a92/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e1cfb19a48fadab78429ce71789e21bd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e1cfb19a48fadab78429ce71789e21bd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/06d9138f2f92b7d0251dc365e16f600e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/06d9138f2f92b7d0251dc365e16f600e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5e2efe8897ba2eb144b16eaeef1e3b43/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5e2efe8897ba2eb144b16eaeef1e3b43/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/ambar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/46f217eb6e24b726b9a3ba1a4d141bb4/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/ambar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/46f217eb6e24b726b9a3ba1a4d141bb4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/733d2581c3ec0c5c262331984bf6e9d1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/733d2581c3ec0c5c262331984bf6e9d1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ad07a596915c852e7f8f9c025116832d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ad07a596915c852e7f8f9c025116832d/AndroidManifest.xml:20:5-44
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/library-3.4.0.aar/a66475a587405f6f985f216d233fea50/AndroidManifest.xml:7:5-44
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/library-3.4.0.aar/a66475a587405f6f985f216d233fea50/AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/636c603844ab76386fbb1abf671d3a28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/636c603844ab76386fbb1abf671d3a28/AndroidManifest.xml:20:5-44
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.3.1] /home/ambar/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.3.1.aar/cac1c93f4a44ec045571ed38623bf23e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.3.1] /home/ambar/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.3.1.aar/cac1c93f4a44ec045571ed38623bf23e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/71befe5ec305d60defaef180422f5a7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/71befe5ec305d60defaef180422f5a7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/d1268eced41e3f867d5a3152ef00d1e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/d1268eced41e3f867d5a3152ef00d1e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/a49895a52c4e4e6f703d601b11b40e22/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/a49895a52c4e4e6f703d601b11b40e22/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:transition:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/1a41b34e28d12acce1eaf184557eeac6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/1a41b34e28d12acce1eaf184557eeac6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/62adf5320959051d8329d1ec6cc211bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/62adf5320959051d8329d1ec6cc211bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/a7e960f8cb16ec50eebe03e8c380b964/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/a7e960f8cb16ec50eebe03e8c380b964/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/c9b75245a1379e0abc567e7768255e13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/c9b75245a1379e0abc567e7768255e13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/38f7b67a9901380da27a667cc070f2c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/38f7b67a9901380da27a667cc070f2c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/006ce1a6eb97fbc026bb431c4c4eb769/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/006ce1a6eb97fbc026bb431c4c4eb769/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/f2acfe575b4edaaa45e439c6fd39d34a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/f2acfe575b4edaaa45e439c6fd39d34a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/0a2245642e5fd9c641c9cb1c39cbb8c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/0a2245642e5fd9c641c9cb1c39cbb8c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/879f365c74428f5d47fbdb5b79685395/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/879f365c74428f5d47fbdb5b79685395/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/ambar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/4cca50ec2f774422dcd222d0c0a50811/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/ambar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/4cca50ec2f774422dcd222d0c0a50811/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:7:5-9:41
 INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
@@ -83,71 +89,71 @@ INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_Sc
 		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:8:9-34
 		INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:11:5-81
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:12:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:12:5-75
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:13:5-75
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:12:22-72
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:13:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:13:5-80
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:13:22-77
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:14:22-77
 application
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:15:5-37:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e26e31559113989900dfa9a756522885/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e26e31559113989900dfa9a756522885/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/34576b326b51e814cacd03041060d10c/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/34576b326b51e814cacd03041060d10c/AndroidManifest.xml:9:5-20
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:16:5-55:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/733d2581c3ec0c5c262331984bf6e9d1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ambar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/733d2581c3ec0c5c262331984bf6e9d1/AndroidManifest.xml:9:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/library-3.4.0.aar/a66475a587405f6f985f216d233fea50/AndroidManifest.xml:9:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/library-3.4.0.aar/a66475a587405f6f985f216d233fea50/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/a49895a52c4e4e6f703d601b11b40e22/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/ambar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/a49895a52c4e4e6f703d601b11b40e22/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:19:9-41
 	android:icon
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:17:9-45
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:18:9-49
 	android:allowBackup
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:19:9-47
-activity#com.roghaari.MainActivity
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:20:9-28:20
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:20:9-47
+activity#com.roghaari.androidApp.MainActivity
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:21:9-33:20
 	android:label
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:22:13-45
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:23:13-45
+	android:theme
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:24:13-44
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:21:13-53
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:23:13-27:29
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:22:13-52
+activity#com.roghaari.androidApp.BaseActivity
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:34:9-61
+	android:name
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:34:19-58
+activity#com.roghaari.androidApp.TabBarActivity
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:35:9-43:20
+	android:name
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:35:19-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:26:27-74
-activity#com.roghaari.DashboardActivity
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:29:9-31:64
-	android:label
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:31:13-61
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:40:27-74
+activity#com.roghaari.androidApp.ProfileActivity
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:50:9-52:20
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:30:13-58
-activity#com.roghaari.BaseActivity
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:32:9-62
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:50:19-61
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:53:9-54:58
+	android:theme
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:54:13-56
 	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:32:19-59
-activity#com.roghaari.TabBarActivity
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:33:9-64
-	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:33:19-61
-activity#com.roghaari.DashboardFragment
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:34:9-67
-	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:34:19-64
-activity#com.roghaari.HistoryFragment
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:35:9-65
-	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:35:19-62
-activity#com.roghaari.NotificationFragment
-ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:36:9-79
-	android:name
-		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:36:19-67
+		ADDED from /home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/src/main/AndroidManifest.xml:53:19-82

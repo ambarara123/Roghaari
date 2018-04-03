@@ -36,6 +36,7 @@
             android:layout_height="@dimen/custom_tab_layout_height"
             app:tabMode="scrollable"
             app:tabGravity="fill"
+
             />
     </android.support.design.widget.AppBarLayout>
 

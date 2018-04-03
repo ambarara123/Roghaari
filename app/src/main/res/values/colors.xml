@@ -4,10 +4,10 @@
     <color name="background_color">#009688</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#9CCC65</color>
-    <color name="white_greyish">#EEEEEE</color>
-    <color name="button_selectorcolor">#f19595</color>
-    <color name="colorPrimary">#125688</color>
-    <color name="colorPrimaryDark">#125688</color>
+    <color name="white_greyish">#eeeeee</color>
+    <color name="button_selectorcolor">#048C8C</color>
+    <color name="colorPrimary">#058080</color>
+    <color name="colorPrimaryDark">#048C8C</color>
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="windowBackground">#FFFFFF</color>
     <color name="navigationBarColor">#000000</color>

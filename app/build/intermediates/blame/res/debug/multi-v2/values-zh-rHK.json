@@ -4,7 +4,7 @@
             "outputFile": "/home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
-                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/45c3ec4fe769402a08d7ff6d66746414/res/values-zh-rHK/values-zh-rHK.xml",
+                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/71befe5ec305d60defaef180422f5a7e/res/values-zh-rHK/values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5e2efe8897ba2eb144b16eaeef1e3b43/res/values-zh-rHK/values-zh-rHK.xml",
+                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/879f365c74428f5d47fbdb5b79685395/res/values-zh-rHK/values-zh-rHK.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

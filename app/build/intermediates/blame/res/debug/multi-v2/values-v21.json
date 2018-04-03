@@ -4,26 +4,7 @@
             "outputFile": "/home/ambar/Desktop/Login_SignUp_ScreenDesgin_Demo/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5e2efe8897ba2eb144b16eaeef1e3b43/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,267,268,275,279,283,286",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,19573,19689,20146,20440,20735,20907",
-                        "endLines": "2,3,4,5,267,268,275,279,285,290",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,19684,19810,20267,20563,20902,21240"
-                    }
-                },
-                {
-                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/829f1b5c41a86c0e3b80503c978c45c2/res/values-v21/values-v21.xml",
+                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ad07a596915c852e7f8f9c025116832d/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5",
                         "startColumns": "4,4",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/45c3ec4fe769402a08d7ff6d66746414/res/values-v21/values-v21.xml",
+                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/71befe5ec305d60defaef180422f5a7e/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -61,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/ffa1a007bb8ac07fc5cf57e458fd80f4/res/values-v21/values-v21.xml",
+                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/62adf5320959051d8329d1ec6cc211bd/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -77,6 +58,25 @@
                         "endLines": "271,274,278,282",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "19978,20141,20435,20730"
+                    }
+                },
+                {
+                    "source": "/home/ambar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/879f365c74428f5d47fbdb5b79685395/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,267,268,275,279,283,286",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,19573,19689,20146,20440,20735,20907",
+                        "endLines": "2,3,4,5,267,268,275,279,285,290",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,19684,19810,20267,20563,20902,21240"
                     }
                 }
             ]

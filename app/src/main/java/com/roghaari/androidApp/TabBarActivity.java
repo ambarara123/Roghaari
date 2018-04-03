@@ -1,5 +1,6 @@
 package com.roghaari.androidApp;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -15,6 +16,7 @@ import java.util.List;
 
 public class TabBarActivity extends BaseActivity implements HealthTipsFragment.OnFragmentInteractionListener {
 
+    private static FragmentManager tabFragmentManager;
     private TabLayout tabLayout;
     private ViewPager viewPager;
     private int[] tabIcons = {
@@ -29,7 +31,18 @@ public class TabBarActivity extends BaseActivity implements HealthTipsFragment.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab_bar);
 
+        //if the user is not logged in
+        //starting the login activity
+        if (!SharedPrefManager.getInstance(this).isLoggedIn()) {
+            finish();
+            startActivity(new Intent(this, MainActivity.class));
+        }
+        //getting the current user
+        User user = SharedPrefManager.getInstance(this).getUser();
 
+        //initialise fragment manager
+
+        tabFragmentManager = getSupportFragmentManager();
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
@@ -111,5 +124,13 @@ public class TabBarActivity extends BaseActivity implements HealthTipsFragment.O
     @Override
     protected boolean useToolbar() {
         return false;
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent homeIntent = new Intent(Intent.ACTION_MAIN);
+        homeIntent.addCategory(Intent.CATEGORY_HOME);
+        homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(homeIntent);
     }
 }

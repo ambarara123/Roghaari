@@ -8,32 +8,50 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="22" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/roghaari_launcher"
         android:label="@string/app_name"
         android:theme="@style/MyMaterialTheme">
         <activity
-            android:name="com.roghaari.androidApp.MainActivity"
-            android:label="@string/app_name">
+            android:name=".androidApp.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+
+<!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+-->
         </activity>
-        <activity
-            android:name="com.roghaari.androidApp.DashboardActivity"
-            android:label="@string/title_activity_dashboard" />
-        <activity android:name="com.roghaari.androidApp.BaseActivity" />
-        <activity android:name="com.roghaari.androidApp.TabBarActivity" />
-        <activity android:name="com.roghaari.androidApp.DashboardFragment" />
-        <activity android:name="com.roghaari.androidApp.HistoryFragment" />
-        <activity android:name="com.roghaari.androidApp.NotificationFragment"></activity>
+        <activity android:name=".androidApp.BaseActivity" />
+        <activity android:name=".androidApp.TabBarActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!--
+            <activity android:name=".androidApp.DashboardFragment" />
+        <activity android:name=".androidApp.HistoryFragment" />
+        <activity android:name=".androidApp.NotificationFragment" />
+        -->
+        <activity android:name=".androidApp.ProfileActivity">
+
+        </activity>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"/>
     </application>
 
 </manifest>
